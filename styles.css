@@ -13,6 +13,8 @@
     font-family: Abel;
 }
 
+
+/*Navigation Bar - Start*/
 .navBar{
     height:140px;
     width:100%;
@@ -56,8 +58,11 @@
     color: #5068A9;
     font-weight: 900;
 }
+/*Navigation Bar - End*/
 
-/* margin: top right bottom left */
+
+
+/*Header - Start*/
 .header{
 
     height: 128px;
@@ -84,3 +89,60 @@
     line-height: 1.8;
     font-weight: 300;
 }
+/*Header - End*/
+
+
+
+/*Main/Body - Start*/
+.main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+    /*Gallery for Portfolio Page - Start*/
+.main .gallery{
+    position: relative;
+    height:auto;
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-gap: 1vmin;
+    grid-auto-flow: dense;
+}
+    
+.main .gallery .img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.main .gallery .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.95);
+    transition: 0.3s ease-in-out;
+}
+
+.main .gallery .img:hover img{
+    filter: brightness(1.13);
+}
+
+.main .gallery .img:first-child{
+    grid-column-start: span 2;
+    grid-row-start: span 1;
+}
+
+.main .gallery .img:nth-child(2n+3){
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+    height: 500px;
+}
+.main .gallery .img:nth-child(4n+5){
+    grid-column-start: span 3;
+    grid-row-start: span 3;  
+}
+    /*Gallery for Portfolio Page - End*/
+/*Main/Body - Start*/
