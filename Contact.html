@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <nav class="navBar">
+            <p class="logo">JIANWEI.</p>
+            
+            <ul>  
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Portfolio.html">ABOUT</a></li>
+                <li><a class="currentPage" href="Contact.html">CONTACT</a></li>              
+            </ul>
+            
+        </nav class>
+
+        <header class="header">
+            <h2>Contact Me</h2>
+            <p style ="white-space: pre-line;">
+                To contact me, please fill out the following form. 
+                All fields are required. I look forward to hearing from you!
+            </p>
+        </header>
+
+        <article class="main">
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label>First Name</label>
+                  <input type="text" class="firstnamebox" name="firstname" required>
+        
+                  <label>Last Name</label>
+                  <input type="text" class="lastnamebox" name="lastname">
+              
+                  
+                
+                  <label for="country">Country</label>
+                  <select id="SG" name="country" required>
+                    <option value="SG">Singapore</option>
+                    <option value="MY">Malaysia</option>
+                    <option value="NK">North Korea</option>
+                  </select>
+              
+                  <label for="comment">Comments</label>
+                  <textarea id="comment" name="comment" style="height:200px"></textarea>
+              
+                  <p>Please select your age:</p>
+                  <input type="radio" id="age1" name="age" value="18" required>
+                  <label for="age1">0 - 18</label><br>
+                  <input type="radio" id="age2" name="age" value="30" required>
+                  <label for="age2">19 - 30</label><br>  
+                  <input type="radio" id="age3" name="age" value="50" required>
+                  <label for="age4">31 - 50</label><br>
+                  <input type="radio" id="age4" name="age" value="51" required>
+                  <label for="age4">51+</label><br><br>
+        
+                  <p>Please select your favourite fruit:</p>
+                  <input type="checkbox">
+                  <label for="Banana">Banana</label><br>
+                  <input type="checkbox">
+                  <label for="Apple">Apple</label><br>
+                  <input type="checkbox">
+                  <label for="Pineapple">Pineapple</label><br>
+                  <input type="checkbox">
+                  <label for="other">Other</label><br><br>
+                  
+                  <input id ="submit" type="submit" value="Submit">
+              
+                </form>
+              </div>
+        </article>
+    
+        <aside class = "aside leftBox">
+        </aside>
+
+        <aside class = "aside rightBox">
+            <h4>Contact Details</h4>
+
+            <p style="white-space: pre-line;">
+                198 West 21th Street, Suite 721</i>
+                New York NY 10016<br>
+                info@domain.com<br>
+                +123 456 7890
+            </p>
+        </aside>
+
+        <footer class="footer">
+            <h1>© 2020 <span style="color:#5068A9;">Jay:Portfolio</span> All Rights Reserved.</h1>  
+            <a href="http://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+            <a href="http://www.google.com" class="fa fa-google"></a>
+            <a href="http://www.linkedin.com" class="fa fa-linkedin"></a> 
+        </footer>
+    </div>
+
+    
+
+</body>
+</html>
