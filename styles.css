@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    background-color: white;
+    background-size: cover;  
+    display: flex;
+    flex-flow: row wrap;
+    font-family: Abel;
+}
+
+.navBar{
+    height:140px;
+    width:100%;
+    background: rgba(238, 223, 247, 0.28);
+}
+
+.navBar ul{
+    float:right;
+    margin-right: 25%;
+    
+}
+
+.navBar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 200px;
+    font-size: 16px;   
+}
+
+.navBar ul li a{
+    text-decoration: none;
+    color: #a4abb6;
+    padding: 6px 13px 6px;
+
+}
+
+.navBar ul li a.currentPage,
+.navBar ul li a:hover{
+    color: #5068A9;
+    transition: .4s;
+}
+
+.logo{
+    font-family: Abel;
+    line-height: 200px;
+    margin-left: 25%;
+    align-content: flex-start;
+    display: inline-block;
+    font-size: 20px;
+    color: #5068A9;
+    font-weight: 900;
+}
