@@ -100,7 +100,7 @@
 .main .gallery{
     position: relative;
     height:auto;
-    width: 50%;
+    width: 70%;
     margin: auto;
     display: grid;
     grid-gap: 1vmin;
@@ -111,7 +111,8 @@
     position: relative;
     height: 100%;
     width: 100%;
-    overflow: hidden;  
+    overflow: hidden; 
+    font-family: Abel; 
 }
 
 .main .gallery .img img{
@@ -122,19 +123,43 @@
     transition: 0.3s ease-in-out;
 }
 
+.main .gallery .img h2{
+    position: absolute;
+    bottom: 33px;
+    left:10px;
+    color: #fff;
+    font-size: 1.424em;
+    font-weight: 300;
+}
+.main .gallery .img h4
+{
+    position: absolute;
+    bottom: 10px;
+    left:10px;
+    color: #b2b8c2;
+    font-size: 15px;
+    font-weight: 200;
+}
+.main .gallery .img:hover h2,
+.main .gallery .img:hover h4
+{
+    transition: .3s all ease;
+    left:20px;
+}
+
 .main .gallery .img:hover img{
     filter: brightness(1.13);
 }
 
 .main .gallery .img:first-child{
-    grid-column-start: span 2;
-    grid-row-start: span 1;
+    grid-column-start: span 1;
+    grid-row-start: span 2;
 }
 
 .main .gallery .img:nth-child(2n+3){
-    grid-column-start: span 1;
-    grid-row-start: span 1;
-    height: 500px;
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+    
 }
 .main .gallery .img:nth-child(4n+5){
     grid-column-start: span 3;
@@ -351,7 +376,7 @@ input[type=submit]:hover
         font-size: 12px;
     }
     .header{
-        padding: 0px 10px 0px 10px;
+        padding: 0px 10px 40px 10px;
     }
     .header h2{
         font-size: 14px;
@@ -371,5 +396,25 @@ input[type=submit]:hover
         display: none;
     }
     
-}   
+} 
+@media only screen and (max-width: 320px){
+    .logo{
+        font-size: 11px;
+        margin-left: 12px;
+    }
+
+    .navBar ul li a{
+        font-size: 8px;
+        margin-right: -10px;
+    }
+
+    .header{
+        padding: 0px 10px 30% 10px;
+    }
+}  
+
+
+
+
+
 /*Responsive Page for mobile - Start*//*Responsive Page for mobile - End*/
