@@ -261,3 +261,115 @@ input[type=submit]:hover
     padding: 20px;
 }
 /*Input box styling For Contact Page - End*/
+
+
+
+/*Responsive Page for mobile - Start*/
+@media all and (min-width: 800px){
+    .main{
+        flex:3;
+    }
+
+    .leftBox{
+        order:1;
+    }
+
+    .rightBox{
+        order:3;
+    }
+
+    .main{
+        order:2;
+    }
+    
+    
+    .footer{
+        order:4;
+    }
+}
+
+@media all and (min-width: 600px){
+    .aside{
+        flex:1;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    .main .gallery{
+        display: grid;
+        width: 90%;
+    }
+    .logo{
+        font-size: 14px;
+    }
+    .navBar ul li a{
+        font-size: 15px; 
+    }
+    .header{
+        padding: 0px 10px 0px 10px;
+    }
+    .header h2{
+        font-size: 14px;
+    }
+    .header p{
+        font-size: 12px;
+    }
+    
+    .leftBox{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .main .gallery{
+        display: block;
+        width: 90%;
+    }
+    .main .gallery .img{
+        display:block;
+        width: 100%;
+        height: 100%;
+        margin: 2% 0;
+    }
+    .logo{
+        font-size: 14px;
+        margin-left: 20px;
+        line-height: 100px;
+    }
+    .navBar{
+        height:110px;
+        width:100%;
+        background: rgba(238, 223, 247, 0.28);
+    }
+    .navBar ul{
+        margin-right: 0px; 
+    }
+    .navBar ul li{
+        line-height: 100px;
+    }
+    .navBar ul li a{
+        font-size: 12px;
+    }
+    .header{
+        padding: 0px 10px 0px 10px;
+    }
+    .header h2{
+        font-size: 14px;
+    }
+    .header p{
+        font-size: 12px;
+        white-space: normal;
+    }
+    .footer h1{
+        font-size: 13px;
+    }
+
+    .rightBox {
+        margin: 10px;   
+    }
+    .leftBox{
+        display: none;
+    }
+    
+}   
+/*Responsive Page for mobile - Start*//*Responsive Page for mobile - End*/
