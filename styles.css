@@ -39,7 +39,6 @@
     text-decoration: none;
     color: #a4abb6;
     padding: 6px 13px 6px;
-
 }
 
 .navBar ul li a.currentPage,
@@ -64,14 +63,12 @@
 
 /*Header - Start*/
 .header{
-
     height: 128px;
     text-align: center;
     border-radius: 10px;
     padding: 50px 10px 100px 10px;
     margin: 10px;
     flex: 1 100%;  
- 
 }
 
 .header h2{
@@ -114,8 +111,7 @@
     position: relative;
     height: 100%;
     width: 100%;
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
 
 .main .gallery .img img{
@@ -146,3 +142,20 @@
 }
     /*Gallery for Portfolio Page - End*/
 /*Main/Body - Start*/
+
+/* Footer Start */
+.footer{
+    margin: 80px 0 30px 0;
+    height: 80px;
+    flex: 1 100%;
+    text-align: center;
+}
+
+.footer h1{
+    font-family: Abel;
+    font-size: 13px;
+    color: gray;
+    font-weight: 300;
+    margin: 20px;
+}
+/* Footer End */
