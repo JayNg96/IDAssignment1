@@ -97,10 +97,11 @@
     width: 100%;
 }
     /*Gallery for Portfolio Page - Start*/
+
 .main .gallery{
     position: relative;
     height:auto;
-    width: 70%;
+    width: 60%;
     margin: auto;
     display: grid;
     grid-gap: 1vmin;
@@ -249,7 +250,7 @@
 /*flex box* - End*/
 
 /*Input box styling For Contact Page  - Start*/
-input[type=text],input[type=date],input[type=time], select, textarea 
+input[type=text], select, textarea 
 {
     width: 100%; 
     padding: 12px; 
@@ -390,7 +391,7 @@ input[type=submit]:hover
     }
 
     .rightBox {
-        margin: 10px;   
+        padding-left: 20px;   
     }
     .leftBox{
         display: none;
