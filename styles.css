@@ -13,7 +13,6 @@
     font-family: Abel;
 }
 
-
 /*Navigation Bar - Start*/
 .navBar{
     height:140px;
@@ -107,6 +106,17 @@
     grid-gap: 1vmin;
     grid-auto-flow: dense;
 }
+    /*Article for About Me Page*/
+.main .article{
+    position: center;
+    background-color: #4a525d;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 800px;
+}
     
 .main .gallery .img{
     position: relative;
@@ -121,7 +131,6 @@
     width: 100%;
     object-fit: cover;
     filter: brightness(0.95);
-    transition: 0.3s ease-in-out;
 }
 
 .main .gallery .img h2{
@@ -131,6 +140,8 @@
     color: #fff;
     font-size: 1.424em;
     font-weight: 300;
+    transition: .3s all ease;
+    transition-timing-function: linear;
 }
 .main .gallery .img h4
 {
@@ -140,11 +151,13 @@
     color: #b2b8c2;
     font-size: 15px;
     font-weight: 200;
+    transition: .3s all ease;
+    transition-timing-function: linear;
 }
 .main .gallery .img:hover h2,
 .main .gallery .img:hover h4
 {
-    transition: .3s all ease;
+    
     left:20px;
 }
 
@@ -250,8 +263,7 @@
 /*flex box* - End*/
 
 /*Input box styling For Contact Page  - Start*/
-input[type=text], select, textarea 
-{
+input[type=text], select, textarea{
     width: 100%; 
     padding: 12px; 
     border: 2px solid#ccc;
@@ -261,6 +273,7 @@ input[type=text], select, textarea
     margin-bottom: 16px; 
     resize: vertical 
 }
+
 
 input[type=submit] 
 {
