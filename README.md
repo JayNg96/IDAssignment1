@@ -1,5 +1,5 @@
 # My Portfolio
-I have built a responsive website that will display images, video, descriptions.
+I have built a responsive website that will showcase my portfolio in images, video, descriptions and with a beautiful layout.
 This website is compatible with mobile device of any size.
  
 # The purpose of this Portfolio Site.
@@ -7,7 +7,7 @@ This website is an extension of my resume. It provides a convenient way for pote
 
 # Design Process
 
-Minimalism is my way to go when it comes to the design of my portfolio site. I am trying to attract new customers with my work, therefore i chose a design that draws attention toward my portfolio and any information i list about my business, not away from them. I used whitespace and sticked to only two fonts. The color scheme contrast well and the typography have a dramatic flare that draws eyes into it. I've only used animations that serve a purpose. I've made sure to use high quality images for present my work, which is especially utmost importance for photoraphers.
+Minimalism is my way to go when it comes to the design of my portfolio site. I am trying to attract new customers with my work, therefore i chose a design that draws attention toward my portfolio and any information i list about my business, not away from them. I used whitespace and sticked to only two fonts. The color scheme contrast well and the typography have a dramatic flare that draws eyes into it. I've only used animations that serve a purpose. I've made sure to use high quality images to present my work, which is especially utmost importance for photographers.
 
 [My WireFrame](https://xd.adobe.com/view/72873d02-6d23-4f80-9661-f76e45e90fac-27d4/ "assets.adobe.com").
 
@@ -24,8 +24,7 @@ Minimalism is my way to go when it comes to the design of my portfolio site. I a
 
 ### Features Left to Implement
 - Mobile Navigation Menu
-- Video
-- About Me Page with Photo of Me and Descriptions.
+- Responsive Video Player
 
 # Credits
 ### Media
@@ -36,9 +35,9 @@ Minimalism is my way to go when it comes to the design of my portfolio site. I a
 - [Snowy Tall Mountains](https://unsplash.com/photos/76wA9lMRlm4)
 - [Beautiful Seashore](https://photographylife.com/landscapes/landscape-photography-guide)
 - [Beautiful Sunset](https://deon.pl/wiara/rekolekcje-adwentowe/dzisiejsza-ewangelia-jest-o-tym-ze-mamy-prawo-miec-watpliwosci,687009)
-
-#### The video used in my Portfolio Page were obtained from:
-- [The 100 Best Photographs Ever Taken](https://www.youtube.com/watch?v=nfewBuxsuBk&ab_channel=BehindTheIncredibleWorld)
+- Korean Girl (https://br.pinterest.com/ric126ong/korean/)
+- Skills (https://www.themuse.com/advice/5-creative-ways-to-show-off-your-skills-to-future-employers)
+- RecentWork (https://www.pinterest.com/johnlabriola/design-dashboardschartsgraphs/)
 
 # Acknowledgement
 #### I received inspiration for this project from:
@@ -50,6 +49,7 @@ Minimalism is my way to go when it comes to the design of my portfolio site. I a
 - https://www.w3schools.com/css/css_navbar.asp
 - https://www.w3schools.com/howto/howto_css_image_text.asp
 - https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transition-timing-function
+- https://www.youtube.com/watch?v=S0a7PEOi0do&ab_channel=CssCoder
 
 # Contributors
 #### Ng Jian Wei <S10208269@connect.np.edu.sg>
