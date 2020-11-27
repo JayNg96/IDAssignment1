@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -355,15 +357,6 @@ template {
 
 
 
-
-
-
-
-
-
-//Start of CSS//
-
-@import url('https://fonts.googleapis.com/css?family=Abel');
 
 *{
     padding: 0;
