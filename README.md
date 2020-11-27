@@ -20,10 +20,9 @@ Minimalism is my way to go when it comes to the design of my portfolio site. I a
 - Form
 - Social Media Button
 - Flexboxes
-- Very Readable Font Used.
+- Responsive Navigation Menu for Mobile User
 
 ### Features Left to Implement
-- Mobile Navigation Menu
 - Responsive Video Player
 
 # Credits
