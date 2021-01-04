@@ -1,7 +1,9 @@
 # My Portfolio
 I have built a responsive website that will showcase my portfolio in images, video, descriptions and with a beautiful layout.
 This website is compatible with mobile device of any size.
- 
+
+[Github Page](https://jayng96.github.io/IDAssignment1/ID_S10208269_NgJianWei_Assg1_website/)
+
 # The purpose of this Portfolio Site.
 This website is an extension of my resume. It provides a convenient way for potential clients to view my work while also allowing me to expand on my skills and services. The purpose provide a way for me to land more clients, whether that means freelance work, more clients for my agency or employment at a company.
 
@@ -9,7 +11,7 @@ This website is an extension of my resume. It provides a convenient way for pote
 
 Minimalism is my way to go when it comes to the design of my portfolio site. I am trying to attract new customers with my work, therefore i chose a design that draws attention toward my portfolio and any information i list about my business, not away from them. I used whitespace and sticked to only two fonts. The color scheme contrast well and the typography have a dramatic flare that draws eyes into it. I've only used animations that serve a purpose. I've made sure to use high quality images to present my work, which is especially utmost importance for photographers.
 
-[My WireFrame](https://xd.adobe.com/view/72873d02-6d23-4f80-9661-f76e45e90fac-27d4/ "assets.adobe.com").
+[My WireFrame](https://xd.adobe.com/view/3099b8bb-8486-4662-ac05-2a9102593cea-65ca/ "assets.adobe.com")
 
 # Features
 ### Existing Features
@@ -24,6 +26,13 @@ Minimalism is my way to go when it comes to the design of my portfolio site. I a
 
 ### Features Left to Implement
 - Responsive Video Player
+
+# Validators
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [Markup Validation Service](https://validator.w3.org/)
+
+# CSS Library
+- [Normalize.css](https://necolas.github.io/normalize.css/)
 
 # Credits
 ### Media
@@ -51,7 +60,7 @@ Minimalism is my way to go when it comes to the design of my portfolio site. I a
 - https://www.youtube.com/watch?v=S0a7PEOi0do&ab_channel=CssCoder
 
 # Contributors
-#### Ng Jian Wei <S10208269@connect.np.edu.sg>
+#### Ng Jian Wei <Jayyng.96@gmail.com>
 
 # License & copyright
 #### © Ng Jian Wei, Ngee Ann Poly
