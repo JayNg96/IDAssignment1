@@ -2,7 +2,7 @@
 I have built a responsive website that will showcase my portfolio in images, video, descriptions and with a beautiful layout.
 This website is compatible with mobile device of any size.
 
-[Github Page](https://jayng96.github.io/IDAssignment1/ID_S10208269_NgJianWei_Assg1_website/)
+[Github Page](https://jayng96.github.io/IDAssignment1/)
 
 # The purpose of this Portfolio Site.
 This website is an extension of my resume. It provides a convenient way for potential clients to view my work while also allowing me to expand on my skills and services. The purpose provide a way for me to land more clients, whether that means freelance work, more clients for my agency or employment at a company.
@@ -50,6 +50,54 @@ Minimalism is my way to go when it comes to the design of my portfolio site. I a
 # Acknowledgement
 #### I received inspiration for this project from:
 - [Peachey Photography](http://peacheyphotography.co.uk/).
+
+# Development Progress
+### 19/11/2020 : 
+- Created Index.html with bootstrap nav bar
+- Created Navigation Menu Bar
+- Added Images to folder
+- Added styles.css
+- Created Image gallery
+- Created Contact.html
+- Added contact form to Contact.html
+- Added Mobile support using css media query
+
+### 20/11/2020
+- Added transitions to gallery images
+- Validated code using W3C Markup Validation Service
+- Update styles.css
+
+### 23/11/2020
+- Added google map to contact.html
+
+### 27/11/2020
+- Created Experience.html and created skill box
+- Remove redundant codes from styles.css
+- Change image & css directory folder
+- Fix image not showing up due to 
+- Created responsive navigation bar using javascript
+- Merged normalize.css with styles.css
+- Basic text editing in about me page
+
+### 4/1/2021
+- Change file and folder name
+
+### 1/2/2021
+- Move index.html to root directory
+
+### 27/12/2020
+- Created contact.html using purely bootstrap
+
+### 9/1/2021 
+- Created Pokedex.html
+- Fetched and display API data using javascript
+- Created CSS for Pokemon API
+- Created Search feature for Pokemon API
+- Added Chart.JS
+
+### 25/1/2021
+- Moved index.html to github root folder instead of placing it in a sub folder *AFTER SUBMISSION DATETIME*
+
 
 # Content
 ### Only a portion of code was taken from the page below and modified.
